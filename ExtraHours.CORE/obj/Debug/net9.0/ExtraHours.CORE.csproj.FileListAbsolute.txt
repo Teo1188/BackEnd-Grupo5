@@ -1,0 +1,12 @@
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Core\bin\Debug\net9.0\ExtraHours.CORE.deps.json
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Core\bin\Debug\net9.0\ExtraHours.CORE.dll
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Core\bin\Debug\net9.0\ExtraHours.CORE.pdb
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Core\obj\Debug\net9.0\ExtraHours.CORE.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Core\obj\Debug\net9.0\ExtraHours.CORE.AssemblyInfoInputs.cache
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Core\obj\Debug\net9.0\ExtraHours.CORE.AssemblyInfo.cs
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Core\obj\Debug\net9.0\ExtraHours.CORE.csproj.CoreCompileInputs.cache
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Core\obj\Debug\net9.0\ExtraHours.CORE.sourcelink.json
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Core\obj\Debug\net9.0\ExtraHours.CORE.dll
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Core\obj\Debug\net9.0\refint\ExtraHours.CORE.dll
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Core\obj\Debug\net9.0\ExtraHours.CORE.pdb
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Core\obj\Debug\net9.0\ref\ExtraHours.CORE.dll

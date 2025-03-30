@@ -19,4 +19,9 @@
     <PackageReference Include="xunit" Version="2.9.3" />
   </ItemGroup>
 
+  <ItemGroup>
+      <ProjectReference Include="..\ExtraHours.Core\ExtraHours.Core.csproj" />
+      <ProjectReference Include="..\ExtraHours.Infrastructure\ExtraHours.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
