@@ -1254,6 +1254,33 @@
             "related": ".xml"
           }
         }
+      },
+      "ExtraHours.CORE/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.3"
+        },
+        "compile": {
+          "bin/placeholder/ExtraHours.CORE.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExtraHours.CORE.dll": {}
+        }
+      },
+      "ExtraHours.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "ExtraHours.CORE": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.3"
+        },
+        "compile": {
+          "bin/placeholder/ExtraHours.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExtraHours.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -3791,10 +3818,22 @@
         "xunit.extensibility.execution.2.9.3.nupkg.sha512",
         "xunit.extensibility.execution.nuspec"
       ]
+    },
+    "ExtraHours.CORE/1.0.0": {
+      "type": "project",
+      "path": "../ExtraHours.CORE/ExtraHours.CORE.csproj",
+      "msbuildProject": "../ExtraHours.CORE/ExtraHours.CORE.csproj"
+    },
+    "ExtraHours.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../ExtraHours.Infrastructure/ExtraHours.Infrastructure.csproj",
+      "msbuildProject": "../ExtraHours.Infrastructure/ExtraHours.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "ExtraHours.CORE >= 1.0.0",
+      "ExtraHours.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 9.0.3",
       "Microsoft.AspNetCore.OpenApi >= 9.0.1",
       "Microsoft.EntityFrameworkCore >= 9.0.3",
@@ -3835,7 +3874,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj": {
+              "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj"
+            },
+            "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.Infrastructure\\ExtraHours.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.Infrastructure\\ExtraHours.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
