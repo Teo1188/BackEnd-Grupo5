@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.Test\\ExtraHours.Test.csproj": {}
+    "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.Test\\ExtraHours.Test.csproj": {}
   },
   "projects": {
-    "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.Test\\ExtraHours.Test.csproj": {
+    "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.Test\\ExtraHours.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.Test\\ExtraHours.Test.csproj",
+        "projectUniqueName": "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.Test\\ExtraHours.Test.csproj",
         "projectName": "ExtraHours.Test",
-        "projectPath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.Test\\ExtraHours.Test.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.Test\\obj\\",
+        "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.Test\\ExtraHours.Test.csproj",
+        "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -83,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
