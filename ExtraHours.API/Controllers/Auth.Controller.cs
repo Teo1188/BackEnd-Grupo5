@@ -1,4 +1,4 @@
-using ExtraHours.CORE.Services;
+using ExtraHours.Core.Services;
 using Microsoft.AspNetCore.Mvc;
 
 

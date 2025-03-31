@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-      <ProjectReference Include="..\ExtraHours.core\ExtraHours.CORE.csproj" />
+      <ProjectReference Include="..\ExtraHours.CORE\ExtraHours.CORE.csproj" />
       <ProjectReference Include="..\ExtraHours.Infrastructure\ExtraHours.Infrastructure.csproj" />
   </ItemGroup>
 
