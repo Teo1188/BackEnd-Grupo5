@@ -2723,8 +2723,8 @@
     },
     "ExtraHours.CORE/1.0.0": {
       "type": "project",
-      "path": "../ExtraHours.CORE/ExtraHours.CORE.csproj",
-      "msbuildProject": "../ExtraHours.CORE/ExtraHours.CORE.csproj"
+      "path": "../ExtraHours.Core/ExtraHours.CORE.csproj",
+      "msbuildProject": "../ExtraHours.Core/ExtraHours.CORE.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2766,8 +2766,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj": {
-              "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj"
+            "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.Core\\ExtraHours.CORE.csproj": {
+              "projectPath": "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.Core\\ExtraHours.CORE.csproj"
             }
           }
         }

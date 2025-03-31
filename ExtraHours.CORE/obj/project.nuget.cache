@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pEn25FrbZNo=",
+  "dgSpecHash": "BOM8vAjePzg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj",
+  "projectFilePath": "C:\\Users\\felip\\OneDrive\\Documentos\\Proyectos\\NodoEafit\\dotNet\\BackEnd-Grupo5\\ExtraHours.Core\\ExtraHours.CORE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.3\\microsoft.entityframeworkcore.9.0.3.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.3\\microsoft.entityframeworkcore.abstractions.9.0.3.nupkg.sha512",
