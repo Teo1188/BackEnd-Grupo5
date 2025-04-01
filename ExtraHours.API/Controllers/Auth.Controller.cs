@@ -19,15 +19,15 @@ namespace ExtraHours.API.Controllers
 
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {
-            var user = await _userService.Authenticate(request.Email, request.Password);
-            if (user == null) return Unauthorized(new { message = "Credenciales incorrectas." });
-            return Ok(new { message = "Login exitoso" });
+            var token = await _userService.Authenticate(request.Email, request.Password);
+            if (token == null) return Unauthorized(new { message = "Credenciales incorrectas." });
+            return Ok(new {token});
         }
     }
 
     public class LoginRequest
     {
-        public string Email { get; set; }
-        public string Password { get; set; }
+        public required string Email { get; set; }
+        public required string Password { get; set; }
     }
 }
