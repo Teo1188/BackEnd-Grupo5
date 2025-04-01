@@ -23,3 +23,16 @@ C:\Users\felip\OneDrive\Documentos\Proyectos\NodoEafit\dotNet\BackEnd-Grupo5\Ext
 C:\Users\felip\OneDrive\Documentos\Proyectos\NodoEafit\dotNet\BackEnd-Grupo5\ExtraHours.CORE\obj\Debug\net9.0\refint\ExtraHours.CORE.dll
 C:\Users\felip\OneDrive\Documentos\Proyectos\NodoEafit\dotNet\BackEnd-Grupo5\ExtraHours.CORE\obj\Debug\net9.0\ExtraHours.CORE.pdb
 C:\Users\felip\OneDrive\Documentos\Proyectos\NodoEafit\dotNet\BackEnd-Grupo5\ExtraHours.CORE\obj\Debug\net9.0\ref\ExtraHours.CORE.dll
+C:\Users\DELL\BackEnd-Grupo5\ExtraHours.CORE\bin\Debug\net9.0\ExtraHours.CORE.deps.json
+C:\Users\DELL\BackEnd-Grupo5\ExtraHours.CORE\bin\Debug\net9.0\ExtraHours.CORE.dll
+C:\Users\DELL\BackEnd-Grupo5\ExtraHours.CORE\bin\Debug\net9.0\ExtraHours.CORE.pdb
+C:\Users\DELL\BackEnd-Grupo5\ExtraHours.CORE\obj\Debug\net9.0\ExtraHours.CORE.csproj.AssemblyReference.cache
+C:\Users\DELL\BackEnd-Grupo5\ExtraHours.CORE\obj\Debug\net9.0\ExtraHours.CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\BackEnd-Grupo5\ExtraHours.CORE\obj\Debug\net9.0\ExtraHours.CORE.AssemblyInfoInputs.cache
+C:\Users\DELL\BackEnd-Grupo5\ExtraHours.CORE\obj\Debug\net9.0\ExtraHours.CORE.AssemblyInfo.cs
+C:\Users\DELL\BackEnd-Grupo5\ExtraHours.CORE\obj\Debug\net9.0\ExtraHours.CORE.csproj.CoreCompileInputs.cache
+C:\Users\DELL\BackEnd-Grupo5\ExtraHours.CORE\obj\Debug\net9.0\ExtraHours.CORE.sourcelink.json
+C:\Users\DELL\BackEnd-Grupo5\ExtraHours.CORE\obj\Debug\net9.0\ExtraHours.CORE.dll
+C:\Users\DELL\BackEnd-Grupo5\ExtraHours.CORE\obj\Debug\net9.0\refint\ExtraHours.CORE.dll
+C:\Users\DELL\BackEnd-Grupo5\ExtraHours.CORE\obj\Debug\net9.0\ExtraHours.CORE.pdb
+C:\Users\DELL\BackEnd-Grupo5\ExtraHours.CORE\obj\Debug\net9.0\ref\ExtraHours.CORE.dll
