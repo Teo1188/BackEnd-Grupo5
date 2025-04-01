@@ -49,3 +49,4 @@ E:\Code\Revision Backend Duvan\BackEnd-Grupo5\ExtraHours.Core\obj\Debug\net9.0\E
 E:\Code\Revision Backend Duvan\BackEnd-Grupo5\ExtraHours.Core\obj\Debug\net9.0\refint\ExtraHours.CORE.dll
 E:\Code\Revision Backend Duvan\BackEnd-Grupo5\ExtraHours.Core\obj\Debug\net9.0\ExtraHours.CORE.pdb
 E:\Code\Revision Backend Duvan\BackEnd-Grupo5\ExtraHours.Core\obj\Debug\net9.0\ref\ExtraHours.CORE.dll
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.CORE\obj\Debug\net9.0\ExtraHours.CORE.csproj.AssemblyReference.cache

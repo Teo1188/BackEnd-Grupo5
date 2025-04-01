@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EWjcCZxe9aI=",
+  "dgSpecHash": "5C3bGZje8lw=",
   "success": true,
-  "projectFilePath": "E:\\Code\\Revision Backend Duvan\\BackEnd-Grupo5\\ExtraHours.Test\\ExtraHours.Test.csproj",
+  "projectFilePath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.Test\\ExtraHours.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",

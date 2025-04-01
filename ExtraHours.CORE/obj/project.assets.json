@@ -544,11 +544,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\Revision Backend Duvan\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj",
+      "projectUniqueName": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj",
       "projectName": "ExtraHours.CORE",
-      "projectPath": "E:\\Code\\Revision Backend Duvan\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj",
+      "projectPath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "E:\\Code\\Revision Backend Duvan\\BackEnd-Grupo5\\ExtraHours.CORE\\obj\\",
+      "outputPath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.CORE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

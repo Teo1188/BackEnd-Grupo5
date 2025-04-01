@@ -58,3 +58,15 @@ E:\Code\Revision Backend Duvan\BackEnd-Grupo5\ExtraHours.Infrastructure\obj\Debu
 E:\Code\Revision Backend Duvan\BackEnd-Grupo5\ExtraHours.Infrastructure\obj\Debug\net9.0\ExtraHours.Infrastructure.pdb
 E:\Code\Revision Backend Duvan\BackEnd-Grupo5\ExtraHours.Infrastructure\obj\Debug\net9.0\ExtraHours.Infrastructure.genruntimeconfig.cache
 E:\Code\Revision Backend Duvan\BackEnd-Grupo5\ExtraHours.Infrastructure\obj\Debug\net9.0\ref\ExtraHours.Infrastructure.dll
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Infrastructure\bin\Debug\net9.0\ExtraHours.Infrastructure.deps.json
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Infrastructure\bin\Debug\net9.0\ExtraHours.Infrastructure.runtimeconfig.json
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Infrastructure\bin\Debug\net9.0\ExtraHours.Infrastructure.dll
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Infrastructure\bin\Debug\net9.0\ExtraHours.Infrastructure.pdb
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Infrastructure\bin\Debug\net9.0\ExtraHours.CORE.dll
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Infrastructure\bin\Debug\net9.0\ExtraHours.CORE.pdb
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Infrastructure\obj\Debug\net9.0\ExtraHou.2FF8663B.Up2Date
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Infrastructure\obj\Debug\net9.0\ExtraHours.Infrastructure.dll
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Infrastructure\obj\Debug\net9.0\refint\ExtraHours.Infrastructure.dll
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Infrastructure\obj\Debug\net9.0\ExtraHours.Infrastructure.pdb
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Infrastructure\obj\Debug\net9.0\ExtraHours.Infrastructure.genruntimeconfig.cache
+E:\Code\Backend\BackEnd-Grupo5\ExtraHours.Infrastructure\obj\Debug\net9.0\ref\ExtraHours.Infrastructure.dll
