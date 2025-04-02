@@ -9,5 +9,7 @@ namespace ExtraHours.Infrastructure.Data
       DbSet<User> Users { get;}
       DbSet<Role> Roles { get;}
       DbSet<Permission> Permissions { get;}
+      DbSet<Department> Departments { get; }
+
     }
 }

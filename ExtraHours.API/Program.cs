@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.Extensions.Options;
 
 
 
@@ -40,6 +41,14 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+builder.Services.AddCors(options => 
+{
+    options.AddPolicy("AllowAll",
+    Policy=> 
+        Policy.AllowAnyOrigin()
+        .AllowAnyMethod().AllowAnyHeader());
+
+});
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
@@ -61,7 +70,7 @@ if (app.Environment.IsDevelopment())
 }
 
 
-
+app.UseCors("AllowAll");
 app.UseHttpsRedirection();
 app.MapControllers();
 app.Run();
