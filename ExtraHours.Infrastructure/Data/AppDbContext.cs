@@ -9,6 +9,7 @@ namespace ExtraHours.Infrastructure.Data {
             public DbSet<User> Users { get; set;}
             public DbSet<Role> Roles { get; set;}
             public DbSet<Permission> Permissions { get; set;}
+            public DbSet<Department> Departments { get; set;}
 
 
              protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -17,6 +18,7 @@ namespace ExtraHours.Infrastructure.Data {
                 .HasOne<Role>()
                 .WithMany()
                 .HasForeignKey(u => u.RoleId);
-            }
+
+             }
         }
 }
