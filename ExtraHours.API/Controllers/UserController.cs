@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ExtraHours.API.Controllers
 {
-    [Authorize]
+  
     [Route("api/users")]
     [ApiController]
     
