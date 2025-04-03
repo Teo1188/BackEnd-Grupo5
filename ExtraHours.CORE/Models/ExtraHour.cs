@@ -17,8 +17,8 @@ namespace ExtraHours.Core.Models
         public DateTime? UpdatedAt { get; set; }
 
         // Propiedades de navegación CORRECTAS:
-        public required User User { get; set; }          // Usuario que registra
-        public required ExtraHourType ExtraHourType { get; set; } // Tipo de hora extra
-        public required User ApprovedBy { get; set; }    // Usuario que aprueba
+        public User? User { get; set; }          // Usuario que registra
+        public ExtraHourType? ExtraHourType { get; set; } // Tipo de hora extra
+        public User? ApprovedBy { get; set; }    // Usuario que aprueba
     }
 }
