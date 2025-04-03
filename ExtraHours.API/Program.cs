@@ -56,6 +56,11 @@ builder.Services.AddScoped<IRoleService, RoleService>();
 builder.Services.AddScoped<IRoleRepository, RoleRepository>();
 builder.Services.AddScoped<IDepartmentService, DepartmentService>();
 builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+builder.Services.AddScoped<IPermissionRepository, PermissionRepository>();
+builder.Services.AddScoped<IPermissionService, PermissionService>();
+builder.Services.AddScoped<IExtraHourTypeRepository, ExtraHourTypeRepository>();
+builder.Services.AddScoped<IExtraHourTypeService, ExtraHourTypeService>();
+
 
 
 
