@@ -60,6 +60,10 @@ builder.Services.AddScoped<IPermissionRepository, PermissionRepository>();
 builder.Services.AddScoped<IPermissionService, PermissionService>();
 builder.Services.AddScoped<IExtraHourTypeRepository, ExtraHourTypeRepository>();
 builder.Services.AddScoped<IExtraHourTypeService, ExtraHourTypeService>();
+builder.Services.AddScoped<IExtraHourRepository, ExtraHourRepository>();
+builder.Services.AddScoped<IExtraHourService, ExtraHourService>();
+builder.Services.AddScoped<IApprovalRepository, ApprovalRepository>();
+builder.Services.AddScoped<IApprovalService, ApprovalService>();
 
 
 
