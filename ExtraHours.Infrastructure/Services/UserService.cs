@@ -62,5 +62,34 @@ namespace ExtraHours.Infrastructure.Services
 
             return new JwtSecurityTokenHandler().WriteToken(tokenDescriptor);
         }
+
+        public async Task<User?> GetUserById(int id)
+        {
+            return await _userRepository.GetUserByIdAsync(id);
+        }
+
+        public async Task<bool> UpdateUser(User user)
+        {
+            var existingUser = await _userRepository.GetUserByIdAsync(user.Id);
+            if (existingUser == null) return false;
+
+            existingUser.Name = user.Name;
+            existingUser.Email = user.Email;
+            existingUser.Salary = user.Salary;
+            existingUser.RoleId = user.RoleId;
+            existingUser.DepartmentId = user.DepartmentId;
+
+            await _userRepository.UpdateUserAsync(existingUser);
+            return true;
+        }
+
+        public async Task<bool> DeleteUser(int id)
+        {
+            var existingUser = await _userRepository.GetUserByIdAsync(id);
+            if (existingUser == null) return false;
+
+            await _userRepository.DeleteUserAsync(id);
+            return true;
+        }
     }
 }
