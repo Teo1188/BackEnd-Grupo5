@@ -1,6 +1,8 @@
 using ExtraHours.Core.Models;
 using ExtraHours.Core.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace ExtraHours.API.Controllers
 {
@@ -16,14 +18,14 @@ namespace ExtraHours.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<ActionResult<IEnumerable<ExtraHourType>>> GetAll()
         {
             var types = await _extraHourTypeService.GetAllTypes();
             return Ok(types);
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        public async Task<ActionResult<ExtraHourType>> GetById(int id)
         {
             var type = await _extraHourTypeService.GetTypeById(id);
             if (type == null) return NotFound();
@@ -31,24 +33,38 @@ namespace ExtraHours.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] ExtraHourType extraHourType)
+        public async Task<ActionResult<ExtraHourType>> Create([FromBody] ExtraHourType extraHourType)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var createdType = await _extraHourTypeService.CreateType(extraHourType);
-            return CreatedAtAction(nameof(GetById), new { id = createdType.Id }, createdType);
+            try
+            {
+                var createdType = await _extraHourTypeService.CreateType(extraHourType);
+                return CreatedAtAction(nameof(GetById), new { id = createdType.Id }, createdType);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] ExtraHourType updatedType)
+        public async Task<ActionResult<ExtraHourType>> Update(int id, [FromBody] ExtraHourType updatedType)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var type = await _extraHourTypeService.UpdateType(id, updatedType);
-            if (type == null) return NotFound();
-            return Ok(type);
+            try
+            {
+                var type = await _extraHourTypeService.UpdateType(id, updatedType);
+                if (type == null) return NotFound();
+                return Ok(type);
+            }
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpDelete("{id}")]

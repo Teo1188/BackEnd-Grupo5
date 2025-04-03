@@ -2,6 +2,9 @@ using ExtraHours.Core.Models;
 using ExtraHours.Core.Repositories;
 using ExtraHours.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace ExtraHours.Infrastructure.Repositories
 {
@@ -14,14 +17,21 @@ namespace ExtraHours.Infrastructure.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<ExtraHourType>> GetAllAsync() => 
-            await _context.ExtraHourTypes.ToListAsync();
+        public async Task<IEnumerable<ExtraHourType>> GetAllAsync()
+        {
+            return await _context.ExtraHourTypes.ToListAsync();
+        }
 
-        public async Task<ExtraHourType?> GetByIdAsync(int id) => 
-            await _context.ExtraHourTypes.FindAsync(id);
+        public async Task<ExtraHourType> GetByIdAsync(int id)
+        {
+            return await _context.ExtraHourTypes.FindAsync(id);
+        }
 
-        public async Task<ExtraHourType?> GetByNameAsync(string name) => 
-            await _context.ExtraHourTypes.FirstOrDefaultAsync(x => x.Name == name);
+        public async Task<ExtraHourType> GetByNameAsync(string name)
+        {
+            return await _context.ExtraHourTypes
+                .FirstOrDefaultAsync(x => x.Name == name);
+        }
 
         public async Task AddAsync(ExtraHourType extraHourType)
         {

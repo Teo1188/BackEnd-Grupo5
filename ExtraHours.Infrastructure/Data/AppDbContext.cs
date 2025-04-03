@@ -6,6 +6,7 @@ namespace ExtraHours.Infrastructure.Data
     public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) {}     
+        
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<Permission> Permissions { get; set; }
@@ -14,19 +15,34 @@ namespace ExtraHours.Infrastructure.Data
         public DbSet<ExtraHour> ExtraHours { get; set; }
         public DbSet<Approval> Approvals { get; set; }
 
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // Configuración para User
             modelBuilder.Entity<User>()
-           .HasOne<Role>()
-           .WithMany()
-           .HasForeignKey(u => u.RoleId);
+                .HasOne<Role>()
+                .WithMany()
+                .HasForeignKey(u => u.RoleId);
 
+            // Configuración para Department
             modelBuilder.Entity<Department>()
-           .Property(d => d.Id)
-           .UseIdentityColumn(); // Esto asegura el autoincremento en PostgreSQL
+                .Property(d => d.Id)
+                .UseIdentityColumn();
 
-            // Configura las relaciones
+            // Configuración para ExtraHourType
+            modelBuilder.Entity<ExtraHourType>(entity =>
+            {
+                entity.Property(e => e.Name)
+                    .IsRequired()
+                    .HasMaxLength(50);
+                
+                entity.Property(e => e.CreatedAt)
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+                
+                entity.Property(e => e.UpdatedAt)
+                    .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            });
+
+            // Configuración para ExtraHour
             modelBuilder.Entity<ExtraHour>()
                 .HasOne(eh => eh.User)
                 .WithMany()
@@ -36,7 +52,8 @@ namespace ExtraHours.Infrastructure.Data
             modelBuilder.Entity<ExtraHour>()
                 .HasOne(eh => eh.ExtraHourType)
                 .WithMany()
-                .HasForeignKey(eh => eh.ExtraHourTypeId);
+                .HasForeignKey(eh => eh.ExtraHourTypeId)
+                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<ExtraHour>()
                 .HasOne(eh => eh.ApprovedBy)
@@ -44,7 +61,7 @@ namespace ExtraHours.Infrastructure.Data
                 .HasForeignKey(eh => eh.ApprovedById)
                 .OnDelete(DeleteBehavior.Restrict);
 
-
+            // Configuración para Approval
             modelBuilder.Entity<Approval>()
                 .HasOne(a => a.ExtraHour)
                 .WithMany()
@@ -56,8 +73,6 @@ namespace ExtraHours.Infrastructure.Data
                 .WithMany()
                 .HasForeignKey(a => a.UserId)
                 .OnDelete(DeleteBehavior.Restrict);
-
-
         }
     }
 }
