@@ -10,6 +10,7 @@ namespace ExtraHours.Infrastructure.Data
         public DbSet<Role> Roles { get; set; }
         public DbSet<Permission> Permissions { get; set; }
         public DbSet<Department> Departments { get; set; }
+        public DbSet<ExtraHourType> ExtraHourTypes { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -22,6 +23,8 @@ namespace ExtraHours.Infrastructure.Data
             modelBuilder.Entity<Department>()
            .Property(d => d.Id)
            .UseIdentityColumn(); // Esto asegura el autoincremento en PostgreSQL
-        }
+
+            
+    }
     }
 }
