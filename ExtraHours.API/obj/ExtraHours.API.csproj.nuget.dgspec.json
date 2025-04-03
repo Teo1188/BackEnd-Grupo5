@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.API\\ExtraHours.API.csproj": {}
+    "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.API\\ExtraHours.API.csproj": {}
   },
   "projects": {
-    "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.API\\ExtraHours.API.csproj": {
+    "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.API\\ExtraHours.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.API\\ExtraHours.API.csproj",
+        "projectUniqueName": "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.API\\ExtraHours.API.csproj",
         "projectName": "ExtraHours.API",
-        "projectPath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.API\\ExtraHours.API.csproj",
+        "projectPath": "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.API\\ExtraHours.API.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.API\\obj\\",
+        "outputPath": "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj": {
-                "projectPath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj"
+              "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj": {
+                "projectPath": "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj"
               },
-              "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.Infrastructure\\ExtraHours.Infrastructure.csproj": {
-                "projectPath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.Infrastructure\\ExtraHours.Infrastructure.csproj"
+              "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.Infrastructure\\ExtraHours.Infrastructure.csproj": {
+                "projectPath": "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.Infrastructure\\ExtraHours.Infrastructure.csproj"
               }
             }
           }
@@ -123,14 +123,14 @@
         }
       }
     },
-    "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj": {
+    "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj",
+        "projectUniqueName": "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj",
         "projectName": "ExtraHours.CORE",
-        "projectPath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj",
+        "projectPath": "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.CORE\\obj\\",
+        "outputPath": "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.CORE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -194,14 +194,14 @@
         }
       }
     },
-    "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.Infrastructure\\ExtraHours.Infrastructure.csproj": {
+    "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.Infrastructure\\ExtraHours.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.Infrastructure\\ExtraHours.Infrastructure.csproj",
+        "projectUniqueName": "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.Infrastructure\\ExtraHours.Infrastructure.csproj",
         "projectName": "ExtraHours.Infrastructure",
-        "projectPath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.Infrastructure\\ExtraHours.Infrastructure.csproj",
+        "projectPath": "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.Infrastructure\\ExtraHours.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.Infrastructure\\obj\\",
+        "outputPath": "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -222,8 +222,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj": {
-                "projectPath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj"
+              "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj": {
+                "projectPath": "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.CORE\\ExtraHours.CORE.csproj"
               }
             }
           }

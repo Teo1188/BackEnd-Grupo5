@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ExtraHours.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250331204836_InitialCreate")]
+    [Migration("20250402192647_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -42,7 +42,7 @@ namespace ExtraHours.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Department");
+                    b.ToTable("Departments");
                 });
 
             modelBuilder.Entity("ExtraHours.Core.Models.Permission", b =>
@@ -110,8 +110,6 @@ namespace ExtraHours.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("DepartmentId");
-
                     b.HasIndex("RoleId");
 
                     b.ToTable("Users");
@@ -119,21 +117,11 @@ namespace ExtraHours.Infrastructure.Migrations
 
             modelBuilder.Entity("ExtraHours.Core.Models.User", b =>
                 {
-                    b.HasOne("ExtraHours.Core.Models.Department", "Department")
-                        .WithMany()
-                        .HasForeignKey("DepartmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ExtraHours.Core.Models.Role", "Role")
+                    b.HasOne("ExtraHours.Core.Models.Role", null)
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Department");
-
-                    b.Navigation("Role");
                 });
 #pragma warning restore 612, 618
         }

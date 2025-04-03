@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hNj+1pkqlOs=",
+  "dgSpecHash": "pPrE3HqM1LY=",
   "success": true,
-  "projectFilePath": "E:\\Code\\Backend\\BackEnd-Grupo5\\ExtraHours.API\\ExtraHours.API.csproj",
+  "projectFilePath": "E:\\Code\\endpoints\\BackEnd-Grupo5\\ExtraHours.API\\ExtraHours.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\aspire.npgsql.entityframeworkcore.postgresql\\9.0.0\\aspire.npgsql.entityframeworkcore.postgresql.9.0.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",

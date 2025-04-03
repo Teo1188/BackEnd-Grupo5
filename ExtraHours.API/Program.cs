@@ -7,6 +7,7 @@ using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Options;
+using ExtraHours.Infrastructure.Repositories;
 
 
 
@@ -51,6 +52,15 @@ builder.Services.AddCors(options =>
 });
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IRoleService, RoleService>();
+builder.Services.AddScoped<IRoleRepository, RoleRepository>();
+builder.Services.AddScoped<IDepartmentService, DepartmentService>();
+builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+builder.Services.AddScoped<IPermissionRepository, PermissionRepository>();
+builder.Services.AddScoped<IPermissionService, PermissionService>();
+builder.Services.AddScoped<IExtraHourTypeRepository, ExtraHourTypeRepository>();
+builder.Services.AddScoped<IExtraHourTypeService, ExtraHourTypeService>();
+
 
 
 
