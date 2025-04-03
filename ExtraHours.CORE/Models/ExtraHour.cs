@@ -11,8 +11,8 @@ namespace ExtraHours.Core.Models
         public TimeSpan EndTime { get; set; }
         public int ExtraHourTypeId { get; set; }
         public int? ApprovedById { get; set; }
-        public string Status { get; set; } // "Pendiente", "Aprobado", "Rechazado"
-        public string Reason { get; set; }
+        public required string Status { get; set; } // "Pendiente", "Aprobado", "Rechazado"
+        public string? Reason { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime? UpdatedAt { get; set; }
 

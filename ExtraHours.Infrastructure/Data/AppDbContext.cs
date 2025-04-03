@@ -11,6 +11,8 @@ namespace ExtraHours.Infrastructure.Data
         public DbSet<Permission> Permissions { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<ExtraHourType> ExtraHourTypes { get; set; }
+        public DbSet<ExtraHour> ExtraHours { get; set; }
+        public DbSet<Approval> Approvals { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -24,7 +26,38 @@ namespace ExtraHours.Infrastructure.Data
            .Property(d => d.Id)
            .UseIdentityColumn(); // Esto asegura el autoincremento en PostgreSQL
 
+            // Configura las relaciones
+            modelBuilder.Entity<ExtraHour>()
+                .HasOne(eh => eh.User)
+                .WithMany()
+                .HasForeignKey(eh => eh.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<ExtraHour>()
+                .HasOne(eh => eh.ExtraHourType)
+                .WithMany()
+                .HasForeignKey(eh => eh.ExtraHourTypeId);
+
+            modelBuilder.Entity<ExtraHour>()
+                .HasOne(eh => eh.ApprovedBy)
+                .WithMany()
+                .HasForeignKey(eh => eh.ApprovedById)
+                .OnDelete(DeleteBehavior.Restrict);
+
+
+            modelBuilder.Entity<Approval>()
+                .HasOne(a => a.ExtraHour)
+                .WithMany()
+                .HasForeignKey(a => a.ExtraHourId)
+                .OnDelete(DeleteBehavior.Restrict);
             
-    }
+            modelBuilder.Entity<Approval>()
+                .HasOne(a => a.User)
+                .WithMany()
+                .HasForeignKey(a => a.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+
+        }
     }
 }
