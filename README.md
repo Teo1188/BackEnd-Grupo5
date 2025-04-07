@@ -76,12 +76,12 @@ BackEnd-Grupo5/ ├── ExtraHourGroup5.sln # Archivo de solución principal �
 
 ## 🏃🏃🏃🏃🏃🏃🏃Equipo 5:
 
-🏃 Duvan Andrés Contreras Franco.
-🏃 Maria Alejandra Salazar Tangarife.
-🏃 Mayerly Cristina Salas Pareja.
-🏃 Juliana Zapata Restrepo.
-🏃 Felipe Ramirez Yepes.
-🏃 Michell Londoño Marin.
-🏃 Estivenson Tadeo Gaviria Florez.
+- 🏃 Duvan Andrés Contreras Franco  
+- 🏃 Maria Alejandra Salazar Tangarife  
+- 🏃 Mayerly Cristina Salas Pareja  
+- 🏃 Juliana Zapata Restrepo  
+- 🏃 Felipe Ramirez Yepes  
+- 🏃 Michell Londoño Marin  
+- 🏃 Estivenson Tadeo Gaviria Florez 
 
 
