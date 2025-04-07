@@ -52,6 +52,9 @@ Esto creará las tablas necesarias en la base de datos especificada.
 
 Establece ExtraHours.API como el proyecto de inicio y ejecuta la aplicación. La API estará disponible en "https://localhost:5001->puerto asignado" + /swagger
 
+6. ## 📁 Estructura del Proyecto
+
+```bash
 BackEnd-Grupo5/ ├── ExtraHourGroup5.sln # Archivo de solución principal │
                 ├── ExtraHours.API/ # Proyecto principal de la API │
                 ├── Controllers/ # Controladores de la API │
@@ -68,15 +71,17 @@ BackEnd-Grupo5/ ├── ExtraHourGroup5.sln # Archivo de solución principal �
                 └── Repositories/ # Repositorios para acceder a la base de datos │
                 ├── ExtraHours.Test/ # Proyecto de pruebas unitarias │
                 └── ... # Casos de prueba para los servicios y controladores
+```
 
 
 ## 🏃🏃🏃🏃🏃🏃🏃Equipo 5:
 
-🏃 Duvan Andrés Contreras Franco 
-🏃 Maria Alejandra Salazar Tangarife 
-🏃 Mayerly Cristina Salas Pareja 
-🏃 Juliana Zapata Restrepo 
-🏃 Felipe Ramirez Yepes 
-🏃 Michell Londoño Marin 
-🏃 Estivenson Tadeo Gaviria Florez
+🏃 Duvan Andrés Contreras Franco.
+🏃 Maria Alejandra Salazar Tangarife.
+🏃 Mayerly Cristina Salas Pareja.
+🏃 Juliana Zapata Restrepo.
+🏃 Felipe Ramirez Yepes.
+🏃 Michell Londoño Marin.
+🏃 Estivenson Tadeo Gaviria Florez.
+
 
