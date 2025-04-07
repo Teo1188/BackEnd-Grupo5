@@ -16,7 +16,7 @@ El repositorio está organizado de la siguiente manera:
 
 - [Visual Studio](https://visualstudio.microsoft.com/) (versión recomendada: 2022 o superior)
 - [.NET SDK](https://dotnet.microsoft.com/download) (versión 6.0 o superior)
-- [SQL Server](https://www.microsoft.com/en-us/sql-server) o cualquier otro sistema de gestión de bases de datos compatible
+- [PostgreSQL](https://www.postgresql.org)
 
 ## 🚀 Instalación y Configuración
 
